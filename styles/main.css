@@ -1,0 +1,87 @@
+:root{
+    --main-color: #186217;
+    --snd-color: #F15A24;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+    color: var(--snd-color);
+    
+}
+
+.background{
+
+    width: 100%;
+    max-height: 100vh;
+    
+    margin: 0;
+    border: 0;
+    padding: 0;
+    object-fit: fill;
+    background-color: aqua;
+    
+}
+
+.headline{
+    position: absolute;
+    z-index: 11;
+    background-color: white;
+    
+    
+    margin-top: 5vh;
+    margin-left: 3vw;
+    padding: 10px 60px 20px 0px;
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: .2em;
+    text-decoration-color: #186217;
+}
+
+
+.menu{
+    position: fixed;
+    height: 100%;
+    width: 16em;
+    background-color: white;
+    
+}
+.menu-background{
+    width: 100%;
+    height: 50%;
+    margin-top: 30vh;
+    margin-left: 3vw;
+    margin-bottom: 50%;
+    color: white;
+    
+}
+.menu li{
+    margin-top: 1.5em;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600; 
+    color: var(--main-color);
+}
+.menu a:hover{
+    text-decoration: underline;
+    font-size: 1.2em;
+    font-weight: 600; 
+    color: #186217;
+}
+
+.paragraph{
+    position: absolute;
+    float: none;
+    
+    bottom: 20vh;
+    left: 74vw;
+    width: 20em;
+    height: auto;
+    
+    padding: 0px 20px 20px;
+    background-color: white;
+}
