@@ -3,10 +3,17 @@
     --snd-color: #F15A24;
 }
 
+@font-face {
+  font-family: goodFont;
+  src: url('https://fonts.googleapis.com/css2?family=Catamaran&family=Roboto:wght@100&display=swap');
+}
+
 body{
     padding: 0;
     margin: 0;
-    font-family: verdana;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Catamaran';
+    font-weight: 300;
     color: var(--snd-color);
     
 }
@@ -34,9 +41,8 @@ body{
     position: absolute;
     z-index: 11;
     background-color: white;
-    margin-top: 5vh;
-    padding: 10px 60px 20px 100px;
-    font-weight: bold;
+    padding: 0px 40px 0px 100px;
+    font-weight: 800;
     font-size: 4em;
     letter-spacing: .2em;
     text-decoration-color: #186217;
@@ -52,6 +58,7 @@ body{
     background: #fff;
     left: -300px;
     transition: .4s;
+    box-shadow: 10px 10px 100px;
     
 }
 #sidebar.active{
@@ -60,7 +67,7 @@ body{
 
 #sidebar ul{
     position: fixed;
-    margin-top: 12%;
+    margin-top: 25vh;
     
 }
 
@@ -68,8 +75,9 @@ body{
     list-style: none;
     color: #000;
     font-size: 20px;
-    margin-top: 1.5em;
-    padding: 20px 24px;
+    margin-top: .8em;
+    padding-top: 10px;
+    padding-left: 24px;
 }
 
 #sidebar a{
@@ -96,6 +104,7 @@ body{
     padding-right: 30px;
     height: 5vh;
     background-color: white;
+    box-shadow: 10px 10px 100px;
     
 }
 
@@ -149,15 +158,25 @@ body{
 }
 */
 
-.paragraph{
+.paragraphBox{
     position: absolute;
     float: none;
-    
     bottom: 20vh;
     left: 74vw;
     width: 20em;
     height: auto;
-    
     padding: 0px 20px 20px;
     background-color: white;
+}
+
+.paragraph{
+    color: #000;
+    font-weight: 500;
+    line-height: 1.2
+}
+.paragraphLink{
+    color: var(--snd-color);
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: underline;
 }
