@@ -18,27 +18,23 @@ body{
     
 }
 .background{
-    width: 100vw;
+    overflow: hidden;
+    width: 100%;
     height: 100vh;
     margin: 0;
     border: 0;
     padding: 0;
-    background-color: aqua;
     
     
 }
-
 .background img{
-
     min-width: 100%;
     min-height: 100%;
-    
-
 }
 
 
 .headline{
-    position: absolute;
+    position: fixed;
     z-index: 11;
     background-color: white;
     padding: 0px 40px 0px 100px;
@@ -52,12 +48,13 @@ body{
 /* Menu */
 
 #sidebar{
-    position: absolute;
+    z-index: 10;
+    position: fixed;
     width: 300px;
     height: 100%;
     background: #fff;
     left: -300px;
-    transition: .4s;
+    transition: 1.4s;
     box-shadow: 10px 10px 100px;
     
 }
@@ -83,17 +80,16 @@ body{
 #sidebar a{
     text-decoration: none;
     font-size: 1.2em;
-    font-weight: 600; 
+    font-weight: 800; 
     color: var(--main-color);
 }
-#sidebar #selected a{
+#sidebar .selected a{
     color: var(--snd-color);
 }
 #sidebar a:hover{
-    text-decoration: underline;
+    color: var(--snd-color);
     font-size: 1.2em;
-    font-weight: 600; 
-    color: #186217;
+    font-weight: 900; 
 }
 
 
@@ -102,7 +98,7 @@ body{
     padding-top: 20px;
     padding-left: 330px;
     padding-right: 30px;
-    height: 5vh;
+    padding-bottom: 24px;
     background-color: white;
     box-shadow: 10px 10px 100px;
     
@@ -179,4 +175,51 @@ body{
     font-weight: 800;
     letter-spacing: 1px;
     text-decoration: underline;
+}
+
+.listContainer{
+    position: relative;
+    top: 25%;
+    left: 10%;
+    width: 80vw;
+    height: 60vh;
+
+}
+.listElement{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 20%;
+    padding: 2.5%;
+}
+.eselImage{
+    overflow: hidden;
+    width: 16vw;
+    height: 16vw;
+    margin-bottom: 2em; 
+    background-color: black;
+}
+.listElement img{
+    position: relative;
+    top: -30%;
+    width: 100%;
+    height: auto;
+}
+h3{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: -70%;
+    left: -7%;
+    font-size: 5em;
+    letter-spacing: .2em;
+}
+.listParagraph{
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.2
+}
+.listParagraphLink{
+    font-size: 1.2em;
+    font-weight: 900;
 }
