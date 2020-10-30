@@ -183,7 +183,6 @@ body{
     left: 10%;
     width: 80vw;
     height: 60vh;
-
 }
 .listElement{
     position: relative;
@@ -198,6 +197,21 @@ body{
     height: 16vw;
     margin-bottom: 2em; 
     background-color: black;
+}
+.eselImageSmall{
+    overflow: hidden;
+    width: 16vw;
+    height: 6vw;
+    margin-bottom: 2em;
+    opacity: .8;
+}
+.eselImageGallery{
+    overflow: hidden;
+    width: 16vw;
+    height: 16vw;
+    margin-bottom: 2em;
+    opacity: .8;
+    top: 0;
 }
 .listElement img{
     position: relative;
@@ -214,6 +228,9 @@ h3{
     font-size: 5em;
     letter-spacing: .2em;
 }
+.h3Small{
+    top: -42%;
+}
 .listParagraph{
     font-size: 1.2em;
     font-weight: 600;
@@ -222,4 +239,79 @@ h3{
 .listParagraphLink{
     font-size: 1.2em;
     font-weight: 900;
+}
+
+.listContainerCalendar{
+    position: relative;
+    top: 25%;
+    left: 10%;
+    width: 80vw;
+    height: 60vh;
+}
+.listElementCalendar{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 20%;
+    padding: 2.5%;
+}
+.calendarImage{
+    overflow: hidden;
+    margin-bottom: 4em; 
+    background-color: black;
+}
+.continueBox{
+    position: absolute;
+    float: none;
+    width: 10vw;
+    height: auto;
+    left: 84vw;
+    top: ;
+    bottom: -90vh;
+    padding: 5px 20px 0px;
+    background-color: var(--snd-color);
+    bottom: ;
+}
+.continueParagraph{
+    color: #fff;
+    font-weight: 600;
+    line-height: 0em;
+    font-size: 1.9em;
+    letter-spacing: 4;
+}
+.bookingColumn{
+    float: left;
+    height: 80vh;
+    width: 100vw;
+}
+.listContainerBooking{
+    float: left;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    width: 30vw;
+    height: 60vh;    
+}
+.listContainerBooking2{
+    float: left;
+    position: relative;
+    top: 20%;
+    left: 30%;
+    width: 15vw;
+    height: 60vh;    
+}
+.listElementBooking{
+    position: relative;
+    float: left;
+    height: 30%;
+    width: 80%;
+    padding: 2.5% 2.5% 2.5% 9%;
+    margin: 2%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+.h3Booking{
+    top: -100%;
+    left: -4%
 }
