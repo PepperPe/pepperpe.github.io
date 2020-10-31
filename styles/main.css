@@ -17,6 +17,11 @@ body{
     color: var(--snd-color);
     
 }
+label{
+    font-weight: 700;
+    color: black;
+    
+}
 .background{
     overflow: hidden;
     width: 100%;
@@ -309,9 +314,25 @@ h3{
     margin: 2%;
     border-style: solid;
     border-width: 5px;
-    border-color: black;
+    border-color: #dcdcdc;
+}
+.listElementBooking:hover{
+    position: relative;
+    float: left;
+    height: 30%;
+    width: 80%;
+    padding: 2.5% 2.5% 2.5% 9%;
+    margin: 2%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--main-color);
 }
 .h3Booking{
     top: -100%;
     left: -4%
+}
+form input{
+    height: 4em;
+    width: 100%;
+    
 }
