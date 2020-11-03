@@ -210,6 +210,11 @@ label{
     margin-bottom: 2em;
     opacity: .8;
 }
+.eselImageSmall img{
+    position: relative;
+    top: -80%;
+    width: 100%;
+}
 .eselImageGallery{
     overflow: hidden;
     width: 16vw;
@@ -272,7 +277,7 @@ h3{
     height: auto;
     left: 84vw;
     top: ;
-    bottom: -90vh;
+    bottom: 10vh;
     padding: 5px 20px 0px;
     background-color: var(--snd-color);
     bottom: ;
