@@ -217,9 +217,9 @@ label{
 }
 .eselImageGallery{
     overflow: hidden;
-    width: 16vw;
-    height: 16vw;
-    margin-bottom: 2em;
+    width: auto;
+    height: auto;
+    margin-bottom: 24%;
     opacity: .8;
     top: 0;
 }
