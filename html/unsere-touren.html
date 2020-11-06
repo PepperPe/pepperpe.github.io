@@ -7,8 +7,10 @@
         <link rel="icon" href="img/meta/icon.png">
         <meta name="description" content="Eseltrekking von Ravensburg bis zum Bodensee">
         <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" media="screen and (min-width: 901px)" href="../styles/main.css">
+        <link rel="stylesheet" media="screen and (max-width: 900px)" href="../styles/mobile/main_mobile.css">
     </head>
+    
     <body>
         <p class="headline">UNSERE<span style="color: var(--main-color); text-decoration: underline; text-decoration-color: var(--snd-color);">TOUREN</span></p>
         <div class="headlineBox"></div>
@@ -25,27 +27,29 @@
 
         <ul>
             <li class="deselected"><a href="../index.html" >HOME</a></li>
-            <li class="deselected"><a href="/html/artboard2.html">ESEL</a> </li>
-            <li class="selected"><a href="/html/artboard3.html">TOUREN</a> </li>
-            <li class="deselected"><a href="/html/artboard4.html">TERMINE</a> </li>
-            <li class="deselected"><a href="/html/artboard5.html">BILDER</a> </li>
+            <li class="deselected"><a href="/html/unsere-esel.html">ESEL</a> </li>
+            <li class="selected"><a href="/html/unsere-touren.html">TOUREN</a> </li>
+            <li class="deselected"><a href="/html/kalender.html">KALENDER</a> </li>
+            <li class="deselected"><a href="/html/gallerie.html">BILDER</a> </li>
             <li class="deselected"><a>   </a> </li>
-            <li class="deselected"><a href="/html/artboard6.html">UEBER UNS</a> </li>
-            <li class="deselected"><a href="/html/artboard6.html">KONTAKT</a> </li>
+            <li class="deselected"><a href="/html/ueber-uns.html">UEBER UNS</a> </li>
+            <li class="deselected"><a href="/html/kontakt.html">KONTAKT</a> </li>
+            
+            <li class="impressum"><a href="/html/impressum.html">IMPRESSUM / AGB</a> </li>
         </ul>
     </div>
         
         
         
         <div class="background">
-            <img  src="../img/content/touren.jpeg" alt="Artboard3">
+            <img style="left: -20vw" class="backgroundImage" src="../img/content/touren.jpeg" alt="Artboard3">
             <div class="paragraphBox">
             <p class="paragraph">Im Programm sind 3 gefuehrte Touren, jeweils mit kennenlernen und einer kleinen Eselkunde mit Anleitung und Tipps zum fuhren der Tiere.</p>
             <a class="paragraphLink" href="#part2">Alle Touren</a>
             </div>
         </div>
         <div id="part2" class="background">
-            <div  class="listContainer">
+            <div class="listContainer">
                 <div class="listElement">
                     <div><img src="../img/touren/01.jpg"></div>
                     <p class="paragraph listParagraph">Tour 1/ dauert ca 3 Stunden mit Esel kennenlernen und ist ca 3 Kilometer lang.<br><br/> </p>
