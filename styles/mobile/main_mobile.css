@@ -29,7 +29,6 @@ label{
     margin: 0;
     border: 0;
     padding: 0;
-    background-color: var(--main-color);
     
     
 }
@@ -191,25 +190,25 @@ label{
 
 .listContainer{
     position: relative;
-    top: 13%;
-    left: 20%;
+    top: 18%;
+    left: 13%;
     width: 80vw;
     height: 128vw;
 }
 
 .listContainerGallery{
     position: relative;
-    top: 20%;
-    left: 14%;
-    width: 80vw;
-    height: 128vw;
+    top: 24%;
+    left: 11%;
+    width: 90vw;
+    height: 160vw;
 }
 
 .listElement{
     overflow: hidden;
     position: relative;
     float: left;
-    height: 46%;
+    height: 50%;
     width: 40%;
     padding: 2.5%;
 }
@@ -221,7 +220,7 @@ label{
     background-color: black;
 }
 .eselImage img{
-    top: -40%;
+    top: -30%;
 }
 .eselImageSmall{
     overflow: hidden;
@@ -239,9 +238,8 @@ label{
     overflow: hidden;
     width: auto;
     height: auto;
-    margin-bottom: 12%;
+    margin-bottom: 18%;
     opacity: .8;
-    top: 0;
 }
 .listElement img{
     position: relative;
@@ -253,22 +251,24 @@ h3{
     position: relative;
     padding: 0;
     margin: 0;
-    bottom: 85%;
-    left: -7%;
-    font-size: 3em;
+    bottom: 100%;
+    left: -5%;
+    font-size: 4.4em;
     letter-spacing: .2em;
 }
 .h3Small{
     top: -42%;
 }
 .listParagraph{
-    font-size: .8em;
+    font-size: 1.9em;
     font-weight: 700;
-    line-height: 1.2
+    line-height: 1.2;
 }
 .listParagraphLink{
-    font-size: 1em;
+    position: relative;
+    font-size: 2em;
     font-weight: 900;
+    top: -1em;
 }
 
 .listContainerCalendar{
