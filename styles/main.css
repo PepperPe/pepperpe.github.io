@@ -262,14 +262,18 @@ h3{
     top: 25%;
     left: 10%;
     width: 80vw;
-    height: 60vh;
+    height: 75vh;
 }
 .listElementCalendar{
     position: relative;
     float: left;
     height: 100%;
-    width: 20%;
+    width: 100%;
     padding: 2.5%;
+}
+.Calendar{
+    width: 100%;
+    height: 100%;
 }
 .calendarImage{
     overflow: hidden;
