@@ -11,6 +11,6 @@ body, div {
 	justify-content: center;
 }
 div, img {
-	width: 350px;
-	height: 350px;
+	width: 100vw;
+	height: auto;
 }
