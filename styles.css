@@ -1,7 +1,6 @@
 html, body {
     background-color: #000;
     font-family: sans-serif;
-    overflow: hidden;
 	padding: 0;
 	margin: 0;
 	width: 100vw;
@@ -13,6 +12,10 @@ body, div {
     align-items: center;
     width: 100%;
 
+}
+
+div{
+    overflow: hidden;
 }
 
 img{
