@@ -1,19 +1,118 @@
 html, body {
+    background-color: #000;
     font-family: sans-serif;
+    overflow: hidden;
 	padding: 0;
 	margin: 0;
 	width: 100vw;
-	height: 100vh;
 }
+
 body, div {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+
 }
-a {
-    width: 80vw;
+
+img{
+    width: 100%;
 }
-img {
-	width: 80vw;
+
+.background{
+    position: absolute;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+}
+#1{
+
+}
+#2{
+    position:relative;
+}
+
+.elements{
+    align-content: center;
+    position: absolute;
+}
+#headline{
+    width: 40%;
+    margin: 5%;
+}
+#title{
+    align-items: baseline;
+    width: 80%;
+    padding: 0 0 0vh 0;
+    margin: 116% 10% 0 10%;    
+}
+#arrow{
+    width: 10%;
+    margin: 3.5% 0 0 45%;
+    animation-name: blinking;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+#headline-2{
+    width: 40%;
+    margin: 10% 0 0 30.5%;
+}
+#ar-button{
+    width: 120%;
+    margin: 112% 0 0 -10%;
+
+}
+#ar-arrow{
+    pointer-events: none;
+    width: 90%;
+    margin: -28% 0 0 5%;
+    animation-name: blinking;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#start{
+    width: 40%;
+    margin: 10% 0 0 30%; 
+}
+
+
+@keyframes blinking{
+    0%{opacity: 10%;}
+    70%{opacity: 90%;}
+    95%{opacity: 100%;}
+    100%{opacity: 50%;}
+}
+
+@keyframes scaling{
+    0%{transform: scale(1.0);}
+    70%{transform: scale(1.1);}
+    95%{transform: scale(1.5);}
+    100%{transform: scale(1.0);}
+}
+
+footer{
+    height: 5vh;
+}
+
+@media(max-device-width: 376px){
+    .background-image{
+        margin: -200px 0 0 0;
+    }
+    #title{
+        align-items: baseline;
+        width: 80%;
+        padding: 0 0 0vh 0;
+        margin: 96% 10% 0 10%;    
+    }
+    #headline-2{
+        width: 40%;
+        margin: 19% 0 0 30.5%;
+    }
+    footer{
+    height: 3vh;
+    }
 }
