@@ -105,12 +105,12 @@ footer{
 }
 
 .start-hi{
-    z-index: 2;
+    display:block;
 
 }
 
 .start-low{
-    z-index: -2;
+    display:none;
 
 }
 
@@ -134,11 +134,11 @@ footer{
     }
 
     .start-hi{
-        z-index: -2;
+        display: none;
     
     }
     .start-low{
-        z-index: 2;
+        display:block;
     
     }
 }
