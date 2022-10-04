@@ -104,6 +104,17 @@ footer{
     padding-bottom: 20px;
 }
 
+.start-hi{
+    z-index: 2;
+
+}
+
+.start-low{
+    z-index: -2;
+
+}
+
+
 @media(max-device-width: 376px){
     .background-image{
         margin: -200px 0 0 0;
@@ -120,5 +131,14 @@ footer{
     }
     footer{
     height: 3vh;
+    }
+
+    .start-hi{
+        z-index: -2;
+    
+    }
+    .start-low{
+        z-index: 2;
+    
     }
 }
